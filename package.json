@@ -1,6 +1,6 @@
 {
     "name": "pii-agent-js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "FABD Horizontal PII Agent Libraries",
     "main": "dist/index.js",
     "keywords": [
@@ -9,6 +9,10 @@
     ],
     "author": "telkomdev-khaerula & telkomdev-alfahan",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.playcourt.id/fab-digital/libs/backend/pii-agent-js"
+    },
     "readmeFilename": "README.md",
     "files": [
         "dist/**/*",
@@ -20,6 +24,7 @@
         "test:cover": "./node_modules/.bin/nyc --reporter=cobertura --reporter=text-summary ./node_modules/.bin/mocha"
     },
     "devDependencies": {
+        "@types/node": "^22.7.5",
         "mocha": "^9.2.1",
         "nyc": "^15.1.0",
         "typescript": "^4.9.4"
