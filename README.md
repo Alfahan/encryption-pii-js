@@ -1,4 +1,4 @@
-# AGENT PII (TypeScript)
+# AGENT PII (Javascript)
 
 ## API Client
 - [x] `encryptWithAes`

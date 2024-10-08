@@ -1,6 +1,6 @@
 {
     "name": "pii-agent-js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "FABD Horizontal PII Agent Libraries",
     "main": "dist/index.js",
     "keywords": [
