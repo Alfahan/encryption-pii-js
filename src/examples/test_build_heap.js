@@ -1,5 +1,4 @@
 const CryptoJs = require('../index');
-const { UserMetadata, User } = require('./schema/user');
 
 // Fungsi untuk menyimpan user
 const createUser = async (userData) => {
