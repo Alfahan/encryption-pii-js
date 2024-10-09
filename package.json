@@ -1,8 +1,9 @@
 {
     "name": "pii-agent-js",
-    "version": "1.0.3",
+    "version": "1.0.6",
     "description": "FABD Horizontal PII Agent Libraries",
     "main": "src/index.js",
+    "type": "CommonJS",
     "keywords": [
         "fabd",
         "libraries"
@@ -15,19 +16,17 @@
     },
     "readmeFilename": "README.md",
     "files": [
-        "dist/**/*",
+        "src/**/*",
         "*.md"
     ],
     "scripts": {
-        "build:types": "npx tsc",
+        "build": "babel src --out-dir dist --extensions \".js\"",
         "test": "./node_modules/.bin/mocha",
         "test:cover": "./node_modules/.bin/nyc --reporter=cobertura --reporter=text-summary ./node_modules/.bin/mocha"
     },
     "devDependencies": {
-        "@types/node": "^22.7.5",
         "mocha": "^9.2.1",
-        "nyc": "^15.1.0",
-        "typescript": "^4.9.4"
+        "nyc": "^15.1.0"
     },
     "dependencies": {
         "dotenv": "^16.4.5"

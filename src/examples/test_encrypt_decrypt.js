@@ -1,4 +1,4 @@
-const CryptoJs = require('../../index')
+const CryptoJs = require('../index')
 
 const data = 'Mohamad Ali Farhan'
 
