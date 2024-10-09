@@ -1,4 +1,4 @@
-const CryptoJs = require('../index');
+const CryptoJs = require('../../index');
 
 // Fungsi untuk menyimpan user
 const createUser = async (userData) => {
